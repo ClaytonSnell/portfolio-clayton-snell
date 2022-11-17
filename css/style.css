@@ -32,11 +32,14 @@ header {
   background-position: 100%;
 }
 
+.first-lesson-image {
+  justify-content: center;
+  max-width: 600px;
+}
 
 .lesson-image {
   justify-content: center;
   max-width: 300px;
-
 }
 
 h1 {
@@ -80,9 +83,9 @@ article {
   border-bottom: 4px solid #df0a0a;
 }
 
-article p {
+section p {
   margin: 2% 0;
-  font-size: 110%;
+  font-size: 135%;
 }
 
 article ul {
@@ -96,13 +99,18 @@ aside {
 }
 
 aside h2 {
-  font-size: 150%;
+  font-size: 200%;
+  border-bottom: 3px solid #13293d;
 }
 
-input, button {
-  width: 100%;
-  margin: 2% 0;
-  padding: 1%;
+.card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: var(--border-radius);
+  padding: 10px;
+  flex: 0 0 300px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
 }
 
 footer {
